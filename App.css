@@ -319,9 +319,9 @@ navlogo nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: -60px;
 }
 
-.skill h2 {
+.skill-box h2 {
   color: white;
-  size: 45px;
+  font-size: 45px;
   font-weight: 700;
 }
 
