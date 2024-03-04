@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
+import { UseNavigate } from 'react-router-dom'
 import { Container, Col, Row } from 'react-bootstrap';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import headerImg from "../assets/images/header-img.png"
@@ -47,7 +48,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <h1>{"Hi I'm Sanmit a "}<span className="wrap">{text}</span></h1>
             <p>Hey there, I am a first year Computer Science student at McMaster University where I am furthering my knowledge in my passion for creating software. A few of my interests and incoming projects are in data science, cybersecurity, and machine learining!</p>
-            <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+            <button onClick={() => window.open("https://www.linkedin.com/in/sanmit-singh", '_blank')} >Let’s Connect <ArrowRightCircle size={25} /></button>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={headerImg} alt="Header Img" />

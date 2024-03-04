@@ -4,6 +4,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/images/logo.png';
 import navIcon1 from '../assets/images/nav-icon1.svg';
 import githubicon from "../assets/images/githublogo.png";
+
 import resume from '../assets/files/TechResume.pdf';
 import resumeimg from '../assets/images/resumeImage.png';
 
@@ -56,9 +57,9 @@ export const NavBar = () => {
                 <img src={resumeimg} />
               </a>
               <a href="https://www.linkedin.com/in/sanmit-singh" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="Linkedin" /></a>
-              <a href="https://github.com/sxnmit/" target="_blank" rel="noopener noreferrer"><img src={githubicon} alt="" /></a>
+              <a href="https://github.com/sxnmit/"><img src={githubicon} alt="" /></a>
             </div>
-            <button className="vvd" onClick={() => console.log('connect')} ><span>Let's Connect</span></button>
+            <button className="vvd" onClick={() => window.open("https://www.linkedin.com/in/sanmit-singh", '_blank')} ><span>Let's Connect</span></button>
           </span>
         </Navbar.Collapse>
       </Container>
